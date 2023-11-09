@@ -35,8 +35,10 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.yellow[200],
       appBar: AppBar(
+        backgroundColor: Colors.yellow,
         title: Text('TO DO'),
         elevation: 0,
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
